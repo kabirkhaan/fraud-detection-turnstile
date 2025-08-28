@@ -7,7 +7,6 @@
 #### Step 1: Install Node.js Dependencies
 Open your terminal in the project directory and run:
 ```bash
-cd /Users/k8473/Desktop/tests
 npm install
 ```
 
