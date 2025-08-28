@@ -1,0 +1,21 @@
+{
+  "name": "turnstile-node-app",
+  "version": "1.0.0",
+  "description": "Cloudflare Turnstile widget running on Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "simulate": "node server-side-turnstile.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["turnstile", "cloudflare", "nodejs"],
+  "author": "",
+  "license": "MIT"
+}
